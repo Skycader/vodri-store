@@ -11,6 +11,7 @@
   flex-direction: column;
   padding: 50px;
   h1 {
+    font-family: "VSS";
     font-size: var(--vss-theme-v2-hero-font-size);
     font-weight: var(--vss-theme-v2-hero-font-weight);
     letter-spacing: var(--vss-theme-v2-hero-letter-spacing);
@@ -21,6 +22,7 @@
   }
 
   p {
+    font-family: "Nunito";
     font-size: var(--vss-theme-v2-title-l-font-size);
     font-weight: var(--vss-theme-v2-hero-font-weight);
     letter-spacing: var(--vss-theme-v2-hero-letter-spacing);
@@ -28,5 +30,17 @@
     font-variation-settings: "GRAD" var(--vss-theme-v2-hero-font-variation-GRAD),
       "opsz" var(--vss-theme-v2-hero-font-variation-opsz);
     margin: 10px 0 40px 0px;
+  }
+
+  button {
+    width: 250px;
+    height: 80px;
+    font-size: 25px;
+    padding: 30px;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background: #0b57d0;
+    color: white;
   }
 }

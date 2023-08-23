@@ -1,4 +1,14 @@
 @font-face {
   font-family: "Google Sans";
-  src: url(/src/app/assets/OpenSans-Regular.ttf) format("opentype");
+  src: url("/assets/fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "VSS";
+  src: url("/assets/fonts/googlesans.woff2");
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("/assets/fonts/Nunito-Regular.ttf");
 }
