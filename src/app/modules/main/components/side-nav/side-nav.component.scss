@@ -1,0 +1,7 @@
+@import "/src/styles/colors.scss";
+.side-nav {
+  width: 100px;
+  height: 100vh;
+  position: fixed;
+  background: $--vss-theme-color-surface-2;
+}
