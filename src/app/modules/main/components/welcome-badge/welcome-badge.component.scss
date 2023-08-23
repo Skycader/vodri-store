@@ -1,0 +1,30 @@
+@import "/src/styles/urls";
+
+.welcome-badge {
+  width: 90%;
+  border-radius: 15px;
+  background-image: url($welcome);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+  h1 {
+    font-size: var(--vss-theme-v2-hero-font-size);
+    font-weight: var(--vss-theme-v2-hero-font-weight);
+    letter-spacing: var(--vss-theme-v2-hero-letter-spacing);
+    line-height: var(--vss-theme-v2-hero-line-height);
+    font-variation-settings: "GRAD" var(--vss-theme-v2-hero-font-variation-GRAD),
+      "opsz" var(--vss-theme-v2-hero-font-variation-opsz);
+    margin: 0 0 8px;
+  }
+
+  p {
+    font-weight: var(--vss-theme-v2-hero-font-weight);
+    letter-spacing: var(--vss-theme-v2-hero-letter-spacing);
+    line-height: var(--vss-theme-v2-hero-line-height);
+    font-variation-settings: "GRAD" var(--vss-theme-v2-hero-font-variation-GRAD),
+      "opsz" var(--vss-theme-v2-hero-font-variation-opsz);
+    margin: 10px 0 40px 0px;
+  }
+}
