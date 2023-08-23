@@ -1,7 +1,8 @@
 @import "/src/styles/urls";
 
 .welcome-badge {
-  width: 90%;
+  max-width: 100%;
+
   border-radius: 15px;
   background-image: url($welcome);
   display: flex;
@@ -20,6 +21,7 @@
   }
 
   p {
+    font-size: var(--vss-theme-v2-title-l-font-size);
     font-weight: var(--vss-theme-v2-hero-font-weight);
     letter-spacing: var(--vss-theme-v2-hero-letter-spacing);
     line-height: var(--vss-theme-v2-hero-line-height);

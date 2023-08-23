@@ -13,6 +13,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatSelectModule } from '@angular/material/select';
+import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatStepperModule } from '@angular/material/stepper';
 import { MatTableModule } from '@angular/material/table';
@@ -39,6 +40,7 @@ const MaterialComponents = [
   MatStepperModule,
   MatProgressBarModule,
   MatPaginatorModule,
+  MatSidenavModule,
 ];
 
 @NgModule({
